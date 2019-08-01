@@ -1,0 +1,95 @@
+html{
+    font-size: 20px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background: rgb(248, 195, 182);
+    font-family: 'meirio',メイリオ;
+    display: block;
+    padding: 100px;
+    height: 100%;
+    position: relative;
+}
+#q_box{
+    background: #fff;
+    border-radius: 5px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 30px;
+   
+}
+#result_box{
+    background: #fff;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 12px rgba(0,0,0,.3);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-500px);
+    transition: .4s;
+}
+#result_box.fadeIn{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: .4s;
+}
+#result_box p{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 1.2rem;
+}
+.btn{
+    display: block;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 15px 20px;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+}
+.btn.q:hover{
+    background: rgb(243, 243, 243);
+}
+#next.btn{
+    margin-top: 30px;
+    text-align: center;
+    background: rgb(211, 211, 211);
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 0 0  rgb(180, 180, 180);
+}
+#next.btn.choose{
+    background: rgb(34, 104, 253);
+    box-shadow: 0 5px 0 0  rgb(25, 66, 160);
+}
+.btn.ok{
+    background: rgb(198, 241, 208);
+    color: darkgreen;
+    border: 1px solid rgb(48, 201, 81);
+}
+.btn.ng{
+    background: rgb(241, 198, 198);
+    color: rgb(100, 0, 0);
+    border: 1px solid rgb(201, 48, 48);
+}
+#replay{
+    background: rgb(34, 104, 253);
+    box-shadow: 0 5px 0 0  rgb(25, 66, 160);
+    color: #fff;
+    text-align: center;
+    border: none;
+}
