@@ -1,8 +1,8 @@
 # quiz
 jsによる三択クイズ
 
-##URL
+## URL
 http://uz-inc.net/kaminaga/quiz/
 
-###ベージック認証
+### ベージック認証
 test/kaminaga
