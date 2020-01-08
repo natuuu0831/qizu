@@ -2,7 +2,7 @@
 jsによる三択クイズ
 
 ## URL
-http://uz-inc.net/kaminaga/quiz/
+https://natuuu0831.github.io/quiz/
 
 ### ベージック認証
 test/kaminaga
